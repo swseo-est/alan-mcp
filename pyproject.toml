@@ -1,0 +1,11 @@
+[project]
+name = "alan-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=0.3.25",
+    "langchain-mcp-adapters>=0.1.4",
+    "langgraph>=0.4.7",
+]

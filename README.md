@@ -1,0 +1,1 @@
+# alan_mcp\n\nA short description of what this project does.\n\n## Installation\n\n\`\`\`bash\npip install alan_mcp\n\`\`\`\n\n## Usage\n\n\`\`\`python\nimport alan_mcp\n\n# Your code here\n\`\`\`\n
