@@ -1,9 +1,13 @@
 [project]
 name = "alan-mcp"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Python client and host implementation for the Multi-Component Protocol (MCP)."
 readme = "README.md"
 requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Your Name", email = "you@example.com"}
+]
 dependencies = [
     "dotenv>=0.9.9",
     "jupyter>=1.1.1",
@@ -13,3 +17,23 @@ dependencies = [
     "langgraph>=0.4.7",
     "nest-asyncio>=1.6.0",
 ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://github.com/example/alan-mcp"
+Repository = "https://github.com/example/alan-mcp"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["alan_mcp*"]
+namespaces = false

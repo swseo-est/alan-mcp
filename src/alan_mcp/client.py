@@ -29,7 +29,7 @@ if __name__ == '__main__':
         "mcpServers": {
             "math": {
                 "command": "python",
-                "args": ["./simple_mcp_servers/math_server.py"], # Replace with actual path if testing
+                "args": ["src/alan_mcp/simple_mcp_servers/math_server.py"], # Replace with actual path if testing
                 "transport": "stdio"
             }
         }

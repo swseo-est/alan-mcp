@@ -5,7 +5,7 @@ import os
 from langchain_core.language_models import BaseChatModel
 
 # Assuming client.py is in the same directory or src is in PYTHONPATH
-from client import create_mcp_client_from_config
+from .client import create_mcp_client_from_config
 
 async def create_mcp_host_agent(config_file_path: str, model: BaseChatModel = None):
     """
